@@ -3,6 +3,7 @@ server:
   basePath: ''
   baseUrl: 'http://localhost:3000' # used for CSAF, e.g. https://example.com
 application:
+  secret: ${JWT_SECRET}
   domain: juice-sh.op # for pre-loaded email users
   name: 'OWASP Juice Shop'
   logo: JuiceShop_Logo.png
