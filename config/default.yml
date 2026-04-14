@@ -5,6 +5,7 @@ server:
 application:
   domain: juice-sh.op # for pre-loaded email users
   name: 'OWASP Juice Shop'
+  jwtSecret: ${JWT_SECRET}
   logo: JuiceShop_Logo.png
   favicon: favicon_js.ico
   theme: bluegrey-lightgreen # Options: bluegrey-lightgreen blue-lightblue deeppurple-amber indigo-pink pink-bluegrey purple-green deeporange-indigo
